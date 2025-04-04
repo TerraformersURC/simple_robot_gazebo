@@ -11,7 +11,7 @@
         <visual name="visual">
             <geometry>
               <mesh>
-                <uri>file:///home/conner/new_ws/src/simple_robot_gazebo/models/mars_terrain/mars_terrain.dae</uri>
+                <uri>file:///home/conner/new_ws/src/simple_robot_gazebo/models/mars_terrain/mars_terrain.dae</uri> <!-- Change if you want mars terrain! -->
               </mesh>
             </geometry>
           <material>
@@ -24,7 +24,7 @@
         <collision name="collision">
           <geometry>
             <mesh>
-               <uri>file:///home/conner/new_ws/src/simple_robot_gazebo/models/mars_terrain/mars_terrain.dae</uri>
+               <uri>file:///home/conner/new_ws/src/simple_robot_gazebo/models/mars_terrain/mars_terrain.dae</uri> <!-- Change if you want mars terrain! -->
             </mesh>
           </geometry>
         </collision>
