@@ -4,9 +4,6 @@
     <include>
       <uri>model://sun</uri>
     </include>
-    <include>
-      <uri>model://ground_plane</uri>
-    </include>
 
     <model name="mars terrain">
       <static>true</static>
@@ -33,5 +30,23 @@
         </collision>
       </link>
     </model>
+
+    <gui fullscreen="0">
+    <plugin filename="MinimalScene" name="3D View">
+      <gz-gui>
+        <title>3D View</title>
+        <property key="showTitleBar" type="bool">false</property>
+        <property key="state" type="string">docked</property>
+      </gz-gui>
+      <!-- ambient/background/etc. omitted for brevity -->
+      <!-- paste in your camera pose from the View Angle plugin: -->
+      <camera_pose>2.04 -11.1 -8.9 0.00 0.0 2.76</camera_pose>
+      <camera_clip>
+        <near>0.25</near>
+        <far>25000</far>
+      </camera_clip>
+    </plugin>
+  </gui>
+
   </world>
 </sdf>
